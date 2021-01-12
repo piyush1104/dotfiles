@@ -347,6 +347,9 @@ netu() {
 alias svim='vim -u ~/.SpaceVim/vimrc'
 alias snvim='nvim -u ~/.SpaceVim/init.vim'
 
+# A way to paste your any result or a command to a website and share with your friends
+alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
+
 # alias sfzf='fzf --height 40% --reverse'
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --inline-info --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 
