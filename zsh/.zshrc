@@ -124,7 +124,7 @@ load-custom-plugins() {
     # # well highlights the syntax as you type
     # source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 }
-load-custom-plugins
+# load-custom-plugins
 
 load-sensitive() {
     if [[ -f ~/.zsh/sensitive.zsh && -r ~/.zsh/sensitive.zsh ]]; then
@@ -159,6 +159,7 @@ run() {
 
 
 alias subl="open -a /Applications/Sublime\ Text.app"
+alias subl4="open -a /Applications/Sublime\ Text\ 4\ early\ build.app"
 
 # ------------------------------------------ #
 #copied from aditya
@@ -341,4 +342,14 @@ netu() {
     printf "%s MB\n" "$(tput bold)🔽 RECEIVED    $(tput sgr0): $RECEIVED"
 }
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
+
+alias svim='vim -u ~/.SpaceVim/vimrc'
+alias snvim='nvim -u ~/.SpaceVim/init.vim'
+
+# alias sfzf='fzf --height 40% --reverse'
+export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --inline-info --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+
+# it first checks whether the file exists and if it does, it sources that.
+# It is used to make ctrl+r work, I guess.
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
