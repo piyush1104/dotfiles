@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/piyushbansal/frontend/resume'
+let g:netrw_dirhist_5='/Users/piyushbansal/frontend'
+let g:netrw_dirhist_4='/Users/piyushbansal/frontend/resume'
+let g:netrw_dirhist_3='/Users/piyushbansal'
+let g:netrw_dirhist_2='/Users'
+let g:netrw_dirhist_1='/Users/piyushbansal/.vim'
