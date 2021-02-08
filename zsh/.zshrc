@@ -350,6 +350,9 @@ alias snvim='nvim -u ~/.SpaceVim/init.vim'
 # A way to paste your any result or a command to a website and share with your friends
 alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 
+# opens a defective chrome instance so that we can use some functionality in localhost without worrying about things like CORS
+alias defective_chrome='open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security -–allow-file-access-from-files'
+
 # alias sfzf='fzf --height 40% --reverse'
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --inline-info --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 
