@@ -142,7 +142,7 @@ uploader() {
 }
 
 compile-and-run() {
-	g++ $1 -o bin/$1.out && ./bin/$1.out < input.txt > output.txt
+	rm -f bin/$1.out && g++ $1 -o bin/$1.out && ./bin/$1.out < input.txt > output.txt
 }
 
 com-run() {
@@ -160,6 +160,7 @@ run() {
 
 alias subl="open -a /Applications/Sublime\ Text.app"
 alias subl4="open -a /Applications/Sublime\ Text\ 4\ early\ build.app"
+alias smerge="open -a /Applications/Sublime\ Merge.app"
 
 # ------------------------------------------ #
 #copied from aditya
@@ -315,6 +316,9 @@ alias define="googler -n 3 --np define"
 loadNvm() {
     export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh";
+    if [[ -f .nvmrc && -r .nvmrc ]]; then
+        nvm use
+    fi
 }
 
 # place this after nvm initialization!

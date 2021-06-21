@@ -51,8 +51,7 @@ set incsearch " incremental search
 set relativenumber " show relative numbers
 set ignorecase
 set smartcase
-set tabstop=4 softtabstop=4
-set shiftwidth=4
+set tabstop=4 softtabstop=4 shiftwidth=4
 set expandtab
 set smartindent
 set laststatus=2 " show status line
