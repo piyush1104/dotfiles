@@ -72,9 +72,10 @@ final class PrettierPHPFixer implements FixerInterface
     {
         $tmpFile = $this->getTmpFile($file);
         // If you want to give custom config
-        // $configFile = __DIR__ . '/.prettierrc';
+        $configFile = __DIR__ . '/.prettierrc';
         // system("prettier --write --config {$configFile} $tmpFile");
         system("npx prettier --write $tmpFile");
+        // system("npx prettier --config {$configFile} --write $tmpFile");
 
         $content = file_get_contents($tmpFile);
 

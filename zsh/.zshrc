@@ -359,6 +359,7 @@ alias defective_chrome='open -n -a /Applications/Google\ Chrome.app/Contents/Mac
 
 # alias sfzf='fzf --height 40% --reverse'
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --inline-info --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+export FZF_CTRL_R_OPTS="--preview ''"
 
 # it first checks whether the file exists and if it does, it sources that.
 # It is used to make ctrl+r work, I guess.

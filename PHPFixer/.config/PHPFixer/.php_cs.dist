@@ -2,9 +2,18 @@
 
 require_once __DIR__ . "/PrettierPHPFixer.php";
 
+// https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/3.0/doc/config.rst
+// read through this also to see how to exclude and include directories
+
+// https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/3.0/doc/usage.rst#caching
+// see this for caching
+
+
 return PhpCsFixer\Config::create()
     ->registerCustomFixers([new PrettierPHPFixer()])
     ->setRules([
         "Prettier/php" => true,
         "@PSR2" => true,
-    ]);
+    ])
+    ->setCacheFile(__DIR__ . '/.php_cs.cache')
+    ->setUsingCache(true);
