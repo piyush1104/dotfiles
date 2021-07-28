@@ -364,3 +364,5 @@ export FZF_CTRL_R_OPTS="--preview ''"
 # it first checks whether the file exists and if it does, it sources that.
 # It is used to make ctrl+r work, I guess.
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias tempmail="tmpmail"
