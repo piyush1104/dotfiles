@@ -8,10 +8,16 @@ source-zsh() {
     fi
 }
 
+# source all your paths
 source-zsh ~/.zsh/paths.zsh
 
 # oh-my-zsh.zsh is actually the .zshrc that is formed after installing oh-my-zsh
 source-zsh ~/.zsh/oh-my-zsh.zsh
+
+# source-zsh ~/.zsh/aditya.zsh
+source-zsh ~/.zsh/sensitive.zsh
+source-zsh ~/.zsh/cpp.zsh
+source-zsh ~/.zsh/aliases.zsh
 
 load-custom-plugins() {
     plugins=("zsh-autosuggestions" "zsh-syntax-highlighting")
@@ -48,10 +54,6 @@ uploader() {
     # eval "$2 \"cd $3 && tar xvzf $x && rm -rf $5 && mv $4 $5 && mv $1 $4\""
 }
 
-# source-zsh ~/.zsh/aditya.zsh
-source-zsh ~/.zsh/sensitive.zsh
-source-zsh ~/.zsh/cpp.zsh
-source-zsh ~/.zsh/aliases.zsh
 
 loadNvm() {
     export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
