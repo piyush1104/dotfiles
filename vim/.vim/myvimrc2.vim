@@ -59,7 +59,7 @@ set tabpagemax=40
 set cursorline
 set noerrorbells
 set visualbell
-set directory=$HOME/.vim/swap//
+set directory=$HOME/.vim/swap/
 " set noswapfile
 set nobackup
 set nowb " no write backup
@@ -68,7 +68,7 @@ set nowrap
 set linebreak
 set sidescrolloff=2
 set exrc " enable project specific vimrc
-set undodir=$HOME/.vim/undodir/
+set undodir=$HOME/.vim/undo/
 set undofile
 
 set termguicolors
