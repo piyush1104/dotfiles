@@ -70,7 +70,12 @@ DISABLE_UNTRACKED_FILES_DIRTY="true" # I uncommented it.
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(osx z extract history)
+if [[ $uname -eq "Linux" ]]
+then
+    plugins=()
+else
+    plugins=(osx z extract history)
+fi
 # ^^ oh-my-zsh provides many plugins. By default in my installation, I had:
 # plugins=(git sublime osx z extract history)
 

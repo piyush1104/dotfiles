@@ -1,6 +1,7 @@
 before_paths=(
     # ~/.composer/vendor/bin
     ~/bin
+    ~/.cargo/bin
 )
 for p in ${before_paths[@]}; do
     PATH=$p:$PATH

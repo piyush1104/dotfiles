@@ -8,6 +8,9 @@ source-zsh() {
     fi
 }
 
+# source the default zsh that is created on first installation
+source-zsh ~/.zsh/default.zsh
+
 # source all your paths
 source-zsh ~/.zsh/paths.zsh
 
@@ -98,4 +101,11 @@ export FZF_CTRL_R_OPTS="--preview ''"
 # It is used to make ctrl+r work, I guess.
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source-zsh ~/.fzf.zsh
+
+if [[ $uname -eq "Linux" ]]
+then
+    # Refer below link, (this exporting is required in windows terminal only, I think.)
+    # https://gist.github.com/AjkayAlan/39a8e53319410b2280667c0f37e0b830
+    LS_COLORS="ow=01;36;40" && export LS_COLORS
+fi
 

@@ -16,3 +16,5 @@ alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 alias defective_chrome='open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security -–allow-file-access-from-files'
 
 alias tempmail="tmpmail"
+
+alias list-size="du -sch .[!.]* * |sort -h"
