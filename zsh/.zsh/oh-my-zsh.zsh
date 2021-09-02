@@ -72,7 +72,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true" # I uncommented it.
 # Add wisely, as too many plugins slow down shell startup.
 if [[ $uname -eq "Linux" ]]
 then
-    plugins=()
+    plugins=(z)
 else
     plugins=(osx z extract history)
 fi

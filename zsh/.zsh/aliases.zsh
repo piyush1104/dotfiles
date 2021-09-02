@@ -2,7 +2,11 @@
 # some alias might also be present in other files, eg. aditya.zsh
 # some are present as functions not alias
 
-alias subl="open -a /Applications/Sublime\ Text.app"
+if [ `uname` = 'Linux' ]; then
+    alias subl='"/mnt/c/Program Files/Sublime Text/subl.exe"'
+else
+    alias subl="open -a /Applications/Sublime\ Text.app"
+fi
 # alias subl4="open -a /Applications/Sublime\ Text\ 4\ early\ build.app"
 alias smerge="open -a /Applications/Sublime\ Merge.app"
 

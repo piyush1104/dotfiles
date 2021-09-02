@@ -107,5 +107,8 @@ then
     # Refer below link, (this exporting is required in windows terminal only, I think.)
     # https://gist.github.com/AjkayAlan/39a8e53319410b2280667c0f37e0b830
     LS_COLORS="ow=01;36;40" && export LS_COLORS
-fi
 
+    # Refer below link for more info
+    # https://unix.stackexchange.com/questions/16243/is-there-a-way-to-set-coloring-for-cd-tab-complete
+    zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+fi
