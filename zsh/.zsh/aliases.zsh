@@ -4,11 +4,13 @@
 
 if [ `uname` = 'Linux' ]; then
     alias subl='"/mnt/c/Program Files/Sublime Text/subl.exe"'
+    alias smerge='"/mnt/c/Program Files/Sublime Merge/sublime_merge.exe"'
 else
     alias subl="open -a /Applications/Sublime\ Text.app"
+    alias smerge="open -a /Applications/Sublime\ Merge.app"
 fi
 # alias subl4="open -a /Applications/Sublime\ Text\ 4\ early\ build.app"
-alias smerge="open -a /Applications/Sublime\ Merge.app"
+# alias smerge="open -a /Applications/Sublime\ Merge.app"
 
 alias svim='vim -u ~/.SpaceVim/vimrc'
 alias snvim='nvim -u ~/.SpaceVim/init.vim'
