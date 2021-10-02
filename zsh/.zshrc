@@ -112,3 +112,5 @@ then
     # https://unix.stackexchange.com/questions/16243/is-there-a-way-to-set-coloring-for-cd-tab-complete
     zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
 fi
+
+export MACPREFS_BACKUP_DIR="${HOME}/dotfiles/macos/preferences"
