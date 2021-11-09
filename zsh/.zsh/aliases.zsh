@@ -24,3 +24,6 @@ alias defective_chrome='open -n -a /Applications/Google\ Chrome.app/Contents/Mac
 alias tempmail="tmpmail"
 
 alias list-size="du -sch .[!.]* * |sort -h"
+
+# default settings to backup
+alias macprefs_backup="macprefs backup -t system_preferences startup_items preferences app_store_preferences"
