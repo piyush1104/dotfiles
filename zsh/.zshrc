@@ -114,3 +114,6 @@ then
 fi
 
 export MACPREFS_BACKUP_DIR="${HOME}/dotfiles/macos/preferences"
+
+# Used to fix go mod for private repos
+export GOSUMDB=off
