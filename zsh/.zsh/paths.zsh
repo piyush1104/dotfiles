@@ -2,6 +2,9 @@ before_paths=(
     # ~/.composer/vendor/bin
     ~/bin
     ~/.cargo/bin
+    $(go env GOPATH)/bin
+    # /Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+    # "/Applications/Sublime Merge.app/Contents/SharedSupport/bin"
 )
 for p in ${before_paths[@]}; do
     PATH=$p:$PATH

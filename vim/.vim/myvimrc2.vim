@@ -48,7 +48,8 @@ endif
 
 set hlsearch " highlight the search
 set incsearch " incremental search
-set relativenumber " show relative numbers
+set number
+" set relativenumber " show relative numbers
 set ignorecase
 set smartcase
 set tabstop=4 softtabstop=4 shiftwidth=4

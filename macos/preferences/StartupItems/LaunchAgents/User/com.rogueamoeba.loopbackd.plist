@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>RA-UUID</key>
+		<string>00000000-0021A143-276112E6-276112E6</string>
+	</dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.rogueamoeba.loopbackd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.rogueamoeba.loopbackd</key>
+		<true/>
+	</dict>
+	<key>Program</key>
+	<string>/Users/piyushbansal/Library/Application Support/Loopback/Loopback.app/Contents/MacOS/Loopback</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>loopbackd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+	<integer>216000</integer>
+</dict>
+</plist>

@@ -117,3 +117,10 @@ export MACPREFS_BACKUP_DIR="${HOME}/dotfiles/macos/preferences"
 
 # Used to fix go mod for private repos
 export GOSUMDB=off
+export AWS_EMAIL=piyush@100ms.live
+export AWS_EMAIL=piyush@100ms.live
+
+export GOPATH=$(go env GOPATH)
+
+export CLOUDSDK_PYTHON=/usr/local/bin/python3.9
+

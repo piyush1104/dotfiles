@@ -6,8 +6,8 @@ if [ `uname` = 'Linux' ]; then
     alias subl='"/mnt/c/Program Files/Sublime Text/subl.exe"'
     alias smerge='"/mnt/c/Program Files/Sublime Merge/sublime_merge.exe"'
 else
-    alias subl="open -a /Applications/Sublime\ Text.app"
-    alias smerge="open -a /Applications/Sublime\ Merge.app"
+    # alias subl="open -a /Applications/Sublime\ Text.app"
+    # alias smerge="open -a /Applications/Sublime\ Merge.app"
 fi
 # alias subl4="open -a /Applications/Sublime\ Text\ 4\ early\ build.app"
 # alias smerge="open -a /Applications/Sublime\ Merge.app"
@@ -27,3 +27,10 @@ alias list-size="du -sch .[!.]* * |sort -h"
 
 # default settings to backup
 alias macprefs_backup="macprefs backup -t system_preferences startup_items preferences app_store_preferences"
+
+
+alias qfind="find . -iname "                 # qfind:    Quickly search for file
+ff () { /usr/bin/find . -iname "$@" ; }      # ff:       Find file under the current directory
+ffs () { /usr/bin/find . -iname "$@"'*' ; }  # ffs:      Find file whose name starts with a given string
+ffe () { /usr/bin/find . -iname '*'"$@" ; }  # ffe:      Find file whose name ends with a given string
+
