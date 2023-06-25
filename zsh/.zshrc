@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # https://stackoverflow.com/a/43544733/6236710
 # https://stackoverflow.com/questions/65484115/how-to-solve-zsh-compinit-insecure-directories-issue-on-macos-other-solutions
 ZSH_DISABLE_COMPFIX="true"
@@ -122,5 +124,7 @@ export AWS_EMAIL=piyush@100ms.live
 
 export GOPATH=$(go env GOPATH)
 
-export CLOUDSDK_PYTHON=/usr/local/bin/python3.9
+export CLOUDSDK_PYTHON=/usr/bin/python3
 
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
