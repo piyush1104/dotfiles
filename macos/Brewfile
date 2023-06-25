@@ -16,6 +16,7 @@ brew "exercism"
 brew "ffmpeg"
 brew "fzf"
 brew "gh"
+brew "ghostscript"
 brew "git"
 brew "gitui"
 brew "go"
@@ -38,9 +39,9 @@ brew "virtualenv"
 brew "pre-commit"
 brew "python@3.9"
 brew "redis"
-brew "redis@6.2"
 brew "stern"
 brew "stow"
+brew "tcl-tk"
 brew "tree"
 brew "w3m"
 brew "zsh-vi-mode"
@@ -49,6 +50,7 @@ brew "piyush1104/formulas/macprefs"
 cask "betterzip"
 cask "discord"
 cask "docker"
+cask "fig"
 cask "figma"
 cask "firefox"
 cask "flux"
@@ -73,6 +75,8 @@ cask "qlvideo"
 cask "qmoji"
 cask "quicklook-json"
 cask "rectangle"
+cask "sequel-ace"
+cask "slack"
 cask "smcfancontrol"
 cask "spotify"
 cask "stremio"
@@ -86,13 +90,16 @@ cask "vlc"
 cask "webpquicklook"
 cask "whatsapp"
 cask "zoom"
-mas "Bandwidth+", id: 490461369
+mas "au.id.haroldchu.mac.Bandwidth", id: 490461369
 mas "CopyClip", id: 595191960
 mas "Developer", id: 640199958
+mas "Expenses", id: 1492055171
 mas "GarageBand", id: 682658836
 mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
+mas "Microsoft Excel", id: 462058435
 mas "Microsoft To Do", id: 1274495053
+mas "Money", id: 1185488696
 mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -100,3 +107,6 @@ mas "Pandan", id: 1569600264
 mas "Sequel Ace", id: 1518036000
 mas "TaskTab", id: 1395414535
 mas "Time Out", id: 402592703
+vscode "esbenp.prettier-vscode"
+vscode "unifiedjs.vscode-mdx"
+vscode "withfig.fig"
