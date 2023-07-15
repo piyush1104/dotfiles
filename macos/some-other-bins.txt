@@ -1,0 +1,9 @@
+I had a folder called ~/bin in my previous macs.
+I am listing some softwares that are present there.
+Not installing them as of now, but they can be useful later
+
+ffmpeg
+neovide
+tmpmail
+tt
+vimr
