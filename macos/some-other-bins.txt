@@ -5,5 +5,5 @@ Not installing them as of now, but they can be useful later
 ffmpeg
 neovide
 tmpmail
-tt
+tt // tt is github.com/lemons/tt - it is a terminal based typing test
 vimr
