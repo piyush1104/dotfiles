@@ -1,0 +1,36 @@
+ack: Search tool like grep, but optimized for programmers
+bat: Clone of cat(1) with syntax highlighting and Git integration
+cmake: Cross-platform make
+fd: Simple, fast and user-friendly alternative to find
+fzf: Command-line fuzzy finder written in Go
+gh: GitHub command-line tool
+gspell: Flexible API to implement spellchecking in GTK+ applications
+gtksourceviewmm3: C++ bindings for gtksourceview3
+heroku: Everything you need to get started with Heroku
+httpie: User-friendly cURL replacement (command-line HTTP client)
+jansson: C library for encoding, decoding, and manipulating JSON
+jq: Lightweight and flexible command-line JSON processor
+libevent: Asynchronous event library
+libidn: International domain name library
+libmetalink: C library to parse Metalink XML files
+libxml++: C++ wrapper for libxml
+midnight-commander: Terminal-based visual file manager
+neovim: Ambitious Vim-fork focused on extensibility and agility
+pacvim: Learn vim commands via a game
+php: General-purpose scripting language
+php@7.3: General-purpose scripting language
+pstree: Show ps output as a tree
+pv: Monitor data's progress through a pipe
+python@3.8: Interpreted, interactive, object-oriented programming language
+ragel: State machine compiler
+spdlog: Super fast C++ logging library
+stow: Organize software neatly under a single directory tree (e.g. /usr/local)
+the_silver_searcher: Code-search similar to ack
+uchardet: Encoding detector library
+vim: Vi 'workalike' with many additional features
+w3m: Pager/text based browser
+wget: Internet file retriever
+wifi-password: Show the current WiFi network password
+yarn: JavaScript package manager
+youtube-dl: Download YouTube videos from the command-line
+zim: Graphical text editor used to maintain a collection of wiki pages
